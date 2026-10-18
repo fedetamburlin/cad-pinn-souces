@@ -1,4 +1,4 @@
-# CAD-PINN Sources
+# CAD-PINN Souces (`cad-pinn-souces`)
 
 [![arXiv](https://img.shields.io/badge/arXiv-2606.07198-b31b1b.svg)](https://arxiv.org/pdf/2606.07198)
 
@@ -34,6 +34,11 @@ This code allows you to:
 - Export optimized geometries to IGES, ready for downstream industrial pipelines.
 
 ---
+
+## 📬 Contact
+
+- **Federico Tamburlin** — [federico.tamburlin@gmail.com](mailto:federico.tamburlin@gmail.com)
+- Or open a GitHub Issue for general questions.
 
 ## 📝 License
 
