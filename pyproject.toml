@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cad-pinn-pyiges"
+version = "0.4.0"
+description = "Modified pyiges for IGES/NURBS geometries, code for the CMAME 2027 paper"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [
+  { name = "Federico Tamburlin", email = "federico.tamburlin@gmail.com" },
+]
+dependencies = [
+  "numpy>=1.24",
+  "tqdm>=4.65",
+]
+
+[project.optional-dependencies]
+full = [
+  "geomdl>=5.3",
+  "pyvista>=0.45",
+  "vtk>=9.2",
+]
+
+[project.urls]
+Paper = "https://doi.org/10.1016/j.cma.2026.119500"
+Repository = "https://github.com/fedetamburlin/cad-pinn-souces"
+Upstream = "https://github.com/pyvista/pyiges"
+
+[tool.setuptools.packages.find]
+include = ["pyiges*"]

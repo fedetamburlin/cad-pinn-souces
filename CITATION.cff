@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "CAD-PINN sources"
+type: software
+authors:
+  - family-names: Tamburlin
+    given-names: Federico
+    email: federico.tamburlin@gmail.com
+repository-code: "https://github.com/fedetamburlin/cad-pinn-souces"
+license: MIT
+preferred-citation:
+  type: article
+  title: "Constraint-driven optimization and parametrization of industrial NURBS geometries via neural deformation field"
+  authors:
+    - family-names: Tamburlin
+      given-names: Federico
+    - family-names: Canali
+      given-names: Giovanni
+    - family-names: D'Inverno
+      given-names: Giuseppe Alessio
+    - family-names: Demo
+      given-names: Nicola
+    - family-names: Mola
+      given-names: Andrea
+    - family-names: Rozza
+      given-names: Gianluigi
+  journal: "Computer Methods in Applied Mechanics and Engineering"
+  volume: 464
+  start: 119500
+  year: 2027
+  doi: "10.1016/j.cma.2026.119500"
