@@ -111,7 +111,9 @@ class Line(Entity):
             ``pyvista`` mesh
         """
         return pv.Line(
-            [self._x1, self._y1, self._z1], [self._x2, self._y2, self._z2], resolution
+            [self._x1, self._y1, self._z1],
+            [self._x2, self._y2, self._z2],
+            resolution=resolution,
         )
 
 
@@ -628,8 +630,6 @@ class RationalBSplineSurface(Entity):
             [parse_float(param) for param in input_parameters], dtype=float
         )
 
-        if self.d['parameter_pointer'] == 49:
-            print(parameters)
         self._k1 = int(parameters[1])  # Upper index of first sum
         self._k2 = int(parameters[2])  # Upper index of second sum
         self._m1 = int(parameters[3])  # Degree of first basis functions
