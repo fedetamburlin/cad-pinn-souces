@@ -233,7 +233,6 @@ class Iges:
         return self[self._pointers[ptr]]
 
     def _parse_separators_from_first_global_line(self, line):
-        print(line)
         if line[0] == ",":
             a = ","
             if line[1] == a:
@@ -392,7 +391,6 @@ class Iges:
                 self.last_line = line
                 break
 
-        print(pointer_dict)
         # for e in entities_to_discard:
         #     try:
         #         entity_list.remove(e)
